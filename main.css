@@ -11,3 +11,11 @@ html {
     padding: 1em;
     margin: 1em;
 }
+/* using first child selector to hide to first Li in the previous fortunes list because it is not a fortune */
+li:first-child {
+  display: none;
+}
+/* Removed bullet points */
+li{
+  list-style-type: none;
+}
